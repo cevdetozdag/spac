@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.6)
+project (green)
+enable_language (Fortran)
+set(app_name abc)
+add_executable(${app_name} green_com.inc GINPUT.F Gsubs.f GBASIC.F MTX_SUB1.F GRTCOEFS.F Ydumtx.f SOURCE.F UKO.F Bessel.f integral_subs.f integration.f JudgeFlag.f G-s-r.f window.f fft.f MainProgram.f)

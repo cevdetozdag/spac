@@ -1,0 +1,21 @@
+WHAT:  input_source_S.dat
+fOR :  single-force source parameters
+
+ 1.0      --     s0   : intensity of source
+ 0.0      --     nx   : x-direction of single-force
+ 0.0      --     ny   : y-direction of single-force
+ 1.0      --     nz   : z-direction of single-force
+ 0.0001      --     zs   : source depth (km) 
+ 1       --     ns   : the number of single-force
+ 0.5      --     rsmin
+ 1     --     rsmax
+
+
+
+
+
+
+
+
+
+

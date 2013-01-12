@@ -1,0 +1,11 @@
+WHAT:   input_media.dat
+FOR :   multi-layered media model
+
+Number of total layers:
+4
+Layer #   depth(km)   Densities(g/cm3)  S-Velocity(km/s) P-velocity(km/s) Q-values  Q-values
+    1      00.000    	001.780   	    0000.180        0001.500        10000     10000
+    2      00.010    	001.850   	    0000.350        0001.700	    10000     10000
+    3      00.020    	001.800   	    0000.250        0001.600	    10000     10000
+    4      00.040       001.930             0000.600        0002.000         10000     10000
+    

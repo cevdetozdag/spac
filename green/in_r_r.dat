@@ -1,0 +1,8 @@
+WHAT:  input_receiver_r.dat
+fOR :  receiver information: rarray case:
+ 
+1            --   nc     : the number of the circuler
+0.0          --   dc     : interval
+0.0          --   z0     : depth of receiver (km)
+0.0          --   nr     : the number of station in one cir
+

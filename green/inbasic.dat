@@ -1,0 +1,34 @@
+WHAT:  input_basic.dat
+FOR :  basic control parameters & source parameters
+
+(1). Basic control parameters:
+30.0      !--   tTwin   : total time window (second)
+0.250     !--  alpha   : tuning factor for imaginary frequency
+2.0e-3    !--criterion : Criterion for termination of k-integral
+
+(2). Source Type:
+S         !--SourceType: 'E'--explosive, 'S'--single-force, 'D'--double-couple
+
+(3). Source spectral parameters:
+Ricker    !-- Type_STF :type of source-time function, 'Ricker', 'Ramp', 'Exp',
+                      : 'SSTEP', 'Exp', 'Green','Bouchon','Trapezoid','B(shift)'
+8.0       !--    fc    : center frequency (Hz)
+0.0       !--    tou   : rise time (Second)
+
+(4). Window swith and parameters:
+ON        !--WinSwitch : 'ON'--use filter, 'OFF'--do not use filter
+Hamming   !-- WinType  : 'Hamming'--Hamming filter, 'Butter'--???
+0.05      !-- f1
+0.20      !-- f2
+14.85      !-- f3
+15.00      !-- f4
+
+(5). Output Format:
+time      !-- OutDomain: domain of output data, 'frequency' or 'time'
+r-array   !-- Case   : source-receiver configaration case: 'vsp' or 'nvsp'
+
+
+
+
+
+
